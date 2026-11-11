@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.camcraft.app-mergeReleaseResources-64:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/harshitshrimali/.gradle/caches/9.9.0/transforms/d33601a7bbabc09c1e9d5cb58d716d7b/transformed/appcompat-1.6.1/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

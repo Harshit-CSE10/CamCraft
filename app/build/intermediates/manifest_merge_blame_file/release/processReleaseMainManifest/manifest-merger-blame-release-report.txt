@@ -1,0 +1,207 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.camcraft.app"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="35" />
+10
+11    <!-- Camera hardware -->
+12    <uses-feature
+12-->/Users/harshitshrimali/Documents/Android-Development/CamCraft/app/src/main/AndroidManifest.xml:6:5-8:36
+13        android:name="android.hardware.camera.any"
+13-->/Users/harshitshrimali/Documents/Android-Development/CamCraft/app/src/main/AndroidManifest.xml:7:9-51
+14        android:required="false" />
+14-->/Users/harshitshrimali/Documents/Android-Development/CamCraft/app/src/main/AndroidManifest.xml:8:9-33
+15    <uses-feature
+15-->/Users/harshitshrimali/Documents/Android-Development/CamCraft/app/src/main/AndroidManifest.xml:9:5-11:36
+16        android:name="android.hardware.camera.autofocus"
+16-->/Users/harshitshrimali/Documents/Android-Development/CamCraft/app/src/main/AndroidManifest.xml:10:9-57
+17        android:required="false" />
+17-->/Users/harshitshrimali/Documents/Android-Development/CamCraft/app/src/main/AndroidManifest.xml:11:9-33
+18
+19    <uses-permission android:name="android.permission.CAMERA" />
+19-->/Users/harshitshrimali/Documents/Android-Development/CamCraft/app/src/main/AndroidManifest.xml:13:5-65
+19-->/Users/harshitshrimali/Documents/Android-Development/CamCraft/app/src/main/AndroidManifest.xml:13:22-62
+20
+21    <!-- Storage permissions per API matrix -->
+22    <uses-permission
+22-->/Users/harshitshrimali/Documents/Android-Development/CamCraft/app/src/main/AndroidManifest.xml:16:5-18:38
+23        android:name="android.permission.READ_EXTERNAL_STORAGE"
+23-->/Users/harshitshrimali/Documents/Android-Development/CamCraft/app/src/main/AndroidManifest.xml:17:9-64
+24        android:maxSdkVersion="32" />
+24-->/Users/harshitshrimali/Documents/Android-Development/CamCraft/app/src/main/AndroidManifest.xml:18:9-35
+25    <uses-permission
+25-->/Users/harshitshrimali/Documents/Android-Development/CamCraft/app/src/main/AndroidManifest.xml:19:5-22:40
+26        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+26-->/Users/harshitshrimali/Documents/Android-Development/CamCraft/app/src/main/AndroidManifest.xml:20:9-65
+27        android:maxSdkVersion="28" />
+27-->/Users/harshitshrimali/Documents/Android-Development/CamCraft/app/src/main/AndroidManifest.xml:21:9-35
+28    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+28-->/Users/harshitshrimali/Documents/Android-Development/CamCraft/app/src/main/AndroidManifest.xml:23:5-76
+28-->/Users/harshitshrimali/Documents/Android-Development/CamCraft/app/src/main/AndroidManifest.xml:23:22-73
+29    <uses-permission android:name="android.permission.READ_MEDIA_VISUAL_USER_SELECTED" />
+29-->/Users/harshitshrimali/Documents/Android-Development/CamCraft/app/src/main/AndroidManifest.xml:24:5-90
+29-->/Users/harshitshrimali/Documents/Android-Development/CamCraft/app/src/main/AndroidManifest.xml:24:22-87
+30
+31    <!-- Location permissions (Opt-in Geotagging only) -->
+32    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+32-->/Users/harshitshrimali/Documents/Android-Development/CamCraft/app/src/main/AndroidManifest.xml:27:5-79
+32-->/Users/harshitshrimali/Documents/Android-Development/CamCraft/app/src/main/AndroidManifest.xml:27:22-76
+33    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+33-->/Users/harshitshrimali/Documents/Android-Development/CamCraft/app/src/main/AndroidManifest.xml:28:5-81
+33-->/Users/harshitshrimali/Documents/Android-Development/CamCraft/app/src/main/AndroidManifest.xml:28:22-78
+34
+35    <permission
+35-->[androidx.core:core:1.13.1] /Users/harshitshrimali/.gradle/caches/9.9.0/transforms/a095238a52dedcdcb07cc9d6334d296a/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+36        android:name="com.camcraft.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+36-->[androidx.core:core:1.13.1] /Users/harshitshrimali/.gradle/caches/9.9.0/transforms/a095238a52dedcdcb07cc9d6334d296a/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+37        android:protectionLevel="signature" />
+37-->[androidx.core:core:1.13.1] /Users/harshitshrimali/.gradle/caches/9.9.0/transforms/a095238a52dedcdcb07cc9d6334d296a/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+38
+39    <uses-permission android:name="com.camcraft.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+39-->[androidx.core:core:1.13.1] /Users/harshitshrimali/.gradle/caches/9.9.0/transforms/a095238a52dedcdcb07cc9d6334d296a/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+39-->[androidx.core:core:1.13.1] /Users/harshitshrimali/.gradle/caches/9.9.0/transforms/a095238a52dedcdcb07cc9d6334d296a/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+40
+41    <application
+41-->/Users/harshitshrimali/Documents/Android-Development/CamCraft/app/src/main/AndroidManifest.xml:30:5-59:19
+42        android:allowBackup="true"
+42-->/Users/harshitshrimali/Documents/Android-Development/CamCraft/app/src/main/AndroidManifest.xml:31:9-35
+43        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+43-->[androidx.core:core:1.13.1] /Users/harshitshrimali/.gradle/caches/9.9.0/transforms/a095238a52dedcdcb07cc9d6334d296a/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+44        android:extractNativeLibs="false"
+45        android:icon="@mipmap/ic_launcher"
+45-->/Users/harshitshrimali/Documents/Android-Development/CamCraft/app/src/main/AndroidManifest.xml:32:9-43
+46        android:label="@string/app_name"
+46-->/Users/harshitshrimali/Documents/Android-Development/CamCraft/app/src/main/AndroidManifest.xml:33:9-41
+47        android:roundIcon="@mipmap/ic_launcher_round"
+47-->/Users/harshitshrimali/Documents/Android-Development/CamCraft/app/src/main/AndroidManifest.xml:34:9-54
+48        android:supportsRtl="true"
+48-->/Users/harshitshrimali/Documents/Android-Development/CamCraft/app/src/main/AndroidManifest.xml:35:9-35
+49        android:theme="@style/Theme.CamCraft" >
+49-->/Users/harshitshrimali/Documents/Android-Development/CamCraft/app/src/main/AndroidManifest.xml:36:9-46
+50        <activity
+50-->/Users/harshitshrimali/Documents/Android-Development/CamCraft/app/src/main/AndroidManifest.xml:38:9-47:20
+51            android:name="com.camcraft.app.MainActivity"
+51-->/Users/harshitshrimali/Documents/Android-Development/CamCraft/app/src/main/AndroidManifest.xml:39:13-41
+52            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+52-->/Users/harshitshrimali/Documents/Android-Development/CamCraft/app/src/main/AndroidManifest.xml:41:13-87
+53            android:exported="true"
+53-->/Users/harshitshrimali/Documents/Android-Development/CamCraft/app/src/main/AndroidManifest.xml:40:13-36
+54            android:theme="@style/Theme.CamCraft" >
+54-->/Users/harshitshrimali/Documents/Android-Development/CamCraft/app/src/main/AndroidManifest.xml:42:13-50
+55            <intent-filter>
+55-->/Users/harshitshrimali/Documents/Android-Development/CamCraft/app/src/main/AndroidManifest.xml:43:13-46:29
+56                <action android:name="android.intent.action.MAIN" />
+56-->/Users/harshitshrimali/Documents/Android-Development/CamCraft/app/src/main/AndroidManifest.xml:44:17-69
+56-->/Users/harshitshrimali/Documents/Android-Development/CamCraft/app/src/main/AndroidManifest.xml:44:25-66
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->/Users/harshitshrimali/Documents/Android-Development/CamCraft/app/src/main/AndroidManifest.xml:45:17-77
+58-->/Users/harshitshrimali/Documents/Android-Development/CamCraft/app/src/main/AndroidManifest.xml:45:27-74
+59            </intent-filter>
+60        </activity>
+61
+62        <provider
+63            android:name="androidx.core.content.FileProvider"
+63-->/Users/harshitshrimali/Documents/Android-Development/CamCraft/app/src/main/AndroidManifest.xml:50:13-62
+64            android:authorities="com.camcraft.app.fileprovider"
+64-->/Users/harshitshrimali/Documents/Android-Development/CamCraft/app/src/main/AndroidManifest.xml:51:13-64
+65            android:exported="false"
+65-->/Users/harshitshrimali/Documents/Android-Development/CamCraft/app/src/main/AndroidManifest.xml:52:13-37
+66            android:grantUriPermissions="true" >
+66-->/Users/harshitshrimali/Documents/Android-Development/CamCraft/app/src/main/AndroidManifest.xml:53:13-47
+67            <meta-data
+67-->/Users/harshitshrimali/Documents/Android-Development/CamCraft/app/src/main/AndroidManifest.xml:54:13-56:54
+68                android:name="android.support.FILE_PROVIDER_PATHS"
+68-->/Users/harshitshrimali/Documents/Android-Development/CamCraft/app/src/main/AndroidManifest.xml:55:17-67
+69                android:resource="@xml/file_paths" />
+69-->/Users/harshitshrimali/Documents/Android-Development/CamCraft/app/src/main/AndroidManifest.xml:56:17-51
+70        </provider>
+71
+72        <service
+72-->[androidx.camera:camera-camera2:1.4.0] /Users/harshitshrimali/.gradle/caches/9.9.0/transforms/bdde610b49cb958bb6cf40fd6c64cf19/transformed/camera-camera2-1.4.0/AndroidManifest.xml:24:9-33:19
+73            android:name="androidx.camera.core.impl.MetadataHolderService"
+73-->[androidx.camera:camera-camera2:1.4.0] /Users/harshitshrimali/.gradle/caches/9.9.0/transforms/bdde610b49cb958bb6cf40fd6c64cf19/transformed/camera-camera2-1.4.0/AndroidManifest.xml:25:13-75
+74            android:enabled="false"
+74-->[androidx.camera:camera-camera2:1.4.0] /Users/harshitshrimali/.gradle/caches/9.9.0/transforms/bdde610b49cb958bb6cf40fd6c64cf19/transformed/camera-camera2-1.4.0/AndroidManifest.xml:26:13-36
+75            android:exported="false" >
+75-->[androidx.camera:camera-camera2:1.4.0] /Users/harshitshrimali/.gradle/caches/9.9.0/transforms/bdde610b49cb958bb6cf40fd6c64cf19/transformed/camera-camera2-1.4.0/AndroidManifest.xml:27:13-37
+76            <meta-data
+76-->[androidx.camera:camera-camera2:1.4.0] /Users/harshitshrimali/.gradle/caches/9.9.0/transforms/bdde610b49cb958bb6cf40fd6c64cf19/transformed/camera-camera2-1.4.0/AndroidManifest.xml:30:13-32:89
+77                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+77-->[androidx.camera:camera-camera2:1.4.0] /Users/harshitshrimali/.gradle/caches/9.9.0/transforms/bdde610b49cb958bb6cf40fd6c64cf19/transformed/camera-camera2-1.4.0/AndroidManifest.xml:31:17-103
+78                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+78-->[androidx.camera:camera-camera2:1.4.0] /Users/harshitshrimali/.gradle/caches/9.9.0/transforms/bdde610b49cb958bb6cf40fd6c64cf19/transformed/camera-camera2-1.4.0/AndroidManifest.xml:32:17-86
+79        </service>
+80
+81        <provider
+81-->[androidx.emoji2:emoji2:1.3.0] /Users/harshitshrimali/.gradle/caches/9.9.0/transforms/cf69879ee19b7dae010834ca969604a5/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+82            android:name="androidx.startup.InitializationProvider"
+82-->[androidx.emoji2:emoji2:1.3.0] /Users/harshitshrimali/.gradle/caches/9.9.0/transforms/cf69879ee19b7dae010834ca969604a5/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+83            android:authorities="com.camcraft.app.androidx-startup"
+83-->[androidx.emoji2:emoji2:1.3.0] /Users/harshitshrimali/.gradle/caches/9.9.0/transforms/cf69879ee19b7dae010834ca969604a5/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+84            android:exported="false" >
+84-->[androidx.emoji2:emoji2:1.3.0] /Users/harshitshrimali/.gradle/caches/9.9.0/transforms/cf69879ee19b7dae010834ca969604a5/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+85            <meta-data
+85-->[androidx.emoji2:emoji2:1.3.0] /Users/harshitshrimali/.gradle/caches/9.9.0/transforms/cf69879ee19b7dae010834ca969604a5/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+86                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+86-->[androidx.emoji2:emoji2:1.3.0] /Users/harshitshrimali/.gradle/caches/9.9.0/transforms/cf69879ee19b7dae010834ca969604a5/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+87                android:value="androidx.startup" />
+87-->[androidx.emoji2:emoji2:1.3.0] /Users/harshitshrimali/.gradle/caches/9.9.0/transforms/cf69879ee19b7dae010834ca969604a5/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+88            <meta-data
+88-->[androidx.lifecycle:lifecycle-process:2.8.6] /Users/harshitshrimali/.gradle/caches/9.9.0/transforms/2a5902771245e638e55ec920156f4bce/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:29:13-31:52
+89                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+89-->[androidx.lifecycle:lifecycle-process:2.8.6] /Users/harshitshrimali/.gradle/caches/9.9.0/transforms/2a5902771245e638e55ec920156f4bce/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:30:17-78
+90                android:value="androidx.startup" />
+90-->[androidx.lifecycle:lifecycle-process:2.8.6] /Users/harshitshrimali/.gradle/caches/9.9.0/transforms/2a5902771245e638e55ec920156f4bce/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:31:17-49
+91            <meta-data
+91-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/harshitshrimali/.gradle/caches/9.9.0/transforms/6358340c192678b9ad79ca5038ecede7/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+92                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+92-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/harshitshrimali/.gradle/caches/9.9.0/transforms/6358340c192678b9ad79ca5038ecede7/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+93                android:value="androidx.startup" />
+93-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/harshitshrimali/.gradle/caches/9.9.0/transforms/6358340c192678b9ad79ca5038ecede7/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+94        </provider>
+95
+96        <receiver
+96-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/harshitshrimali/.gradle/caches/9.9.0/transforms/6358340c192678b9ad79ca5038ecede7/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+97            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+97-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/harshitshrimali/.gradle/caches/9.9.0/transforms/6358340c192678b9ad79ca5038ecede7/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+98            android:directBootAware="false"
+98-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/harshitshrimali/.gradle/caches/9.9.0/transforms/6358340c192678b9ad79ca5038ecede7/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+99            android:enabled="true"
+99-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/harshitshrimali/.gradle/caches/9.9.0/transforms/6358340c192678b9ad79ca5038ecede7/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+100            android:exported="true"
+100-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/harshitshrimali/.gradle/caches/9.9.0/transforms/6358340c192678b9ad79ca5038ecede7/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+101            android:permission="android.permission.DUMP" >
+101-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/harshitshrimali/.gradle/caches/9.9.0/transforms/6358340c192678b9ad79ca5038ecede7/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+102            <intent-filter>
+102-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/harshitshrimali/.gradle/caches/9.9.0/transforms/6358340c192678b9ad79ca5038ecede7/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+103                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+103-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/harshitshrimali/.gradle/caches/9.9.0/transforms/6358340c192678b9ad79ca5038ecede7/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+103-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/harshitshrimali/.gradle/caches/9.9.0/transforms/6358340c192678b9ad79ca5038ecede7/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+104            </intent-filter>
+105            <intent-filter>
+105-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/harshitshrimali/.gradle/caches/9.9.0/transforms/6358340c192678b9ad79ca5038ecede7/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+106                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+106-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/harshitshrimali/.gradle/caches/9.9.0/transforms/6358340c192678b9ad79ca5038ecede7/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+106-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/harshitshrimali/.gradle/caches/9.9.0/transforms/6358340c192678b9ad79ca5038ecede7/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+107            </intent-filter>
+108            <intent-filter>
+108-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/harshitshrimali/.gradle/caches/9.9.0/transforms/6358340c192678b9ad79ca5038ecede7/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+109                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+109-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/harshitshrimali/.gradle/caches/9.9.0/transforms/6358340c192678b9ad79ca5038ecede7/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+109-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/harshitshrimali/.gradle/caches/9.9.0/transforms/6358340c192678b9ad79ca5038ecede7/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+110            </intent-filter>
+111            <intent-filter>
+111-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/harshitshrimali/.gradle/caches/9.9.0/transforms/6358340c192678b9ad79ca5038ecede7/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+112                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+112-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/harshitshrimali/.gradle/caches/9.9.0/transforms/6358340c192678b9ad79ca5038ecede7/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+112-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/harshitshrimali/.gradle/caches/9.9.0/transforms/6358340c192678b9ad79ca5038ecede7/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+113            </intent-filter>
+114        </receiver>
+115    </application>
+116
+117</manifest>

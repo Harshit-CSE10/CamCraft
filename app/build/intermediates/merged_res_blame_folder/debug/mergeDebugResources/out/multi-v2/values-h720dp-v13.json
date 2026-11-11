@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.camcraft.app-mergeDebugResources-68:/values-h720dp-v13/values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/harshitshrimali/.gradle/caches/9.9.0/transforms/d33601a7bbabc09c1e9d5cb58d716d7b/transformed/appcompat-1.6.1/res/values-h720dp-v13/values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        }
+    ]
+}

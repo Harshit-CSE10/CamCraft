@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.camcraft.app-mergeReleaseResources-64:/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "/Users/harshitshrimali/.gradle/caches/9.9.0/transforms/d33601a7bbabc09c1e9d5cb58d716d7b/transformed/appcompat-1.6.1/res/values-watch-v20/values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        }
+    ]
+}
